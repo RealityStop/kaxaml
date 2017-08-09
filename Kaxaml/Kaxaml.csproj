@@ -348,8 +348,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="Settings.cs" />
-    <Compile Include="Silverlight\SilverlightBridge.cs" />
-    <Compile Include="Silverlight\SocketServer.cs" />
     <Compile Include="Views\DocumentsView.xaml.cs">
       <SubType>Code</SubType>
       <DependentUpon>DocumentsView.xaml</DependentUpon>

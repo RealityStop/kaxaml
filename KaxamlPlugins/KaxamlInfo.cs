@@ -40,7 +40,7 @@ namespace KaxamlPlugins
 
         static void _Editor_TextSelectionChanged(object sender, RoutedEventArgs e)
         {
-            EditSelectionChanged?.Invoke(_Editor.SelectedText);
+            EditSelectionChanged(_Editor.SelectedText);
         }
 
         private static Window _MainWindow;

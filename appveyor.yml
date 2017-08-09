@@ -11,7 +11,7 @@ assembly_info:
   assembly_file_version: "{version}"
   assembly_informational_version: "{version}"
 
-configuration: Debug
+configuration: Release
 
 before_build:
   - nuget restore
